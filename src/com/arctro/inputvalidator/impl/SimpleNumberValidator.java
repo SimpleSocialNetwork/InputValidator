@@ -8,12 +8,12 @@ import com.arctro.inputvalidator.Validator;
  *
  * @param <T> The number to check
  */
-public class NumberValidator<T extends Number> implements Validator<T>{
+public class SimpleNumberValidator<T extends Number> implements Validator<T>{
 	
 	double moreThan;
 	double lessThan;
 	
-	public NumberValidator(double moreThan, double lessThan) {
+	public SimpleNumberValidator(double moreThan, double lessThan) {
 		super();
 		this.moreThan = moreThan;
 		this.lessThan = lessThan;
