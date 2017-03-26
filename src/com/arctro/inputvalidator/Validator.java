@@ -12,5 +12,5 @@ public interface Validator<T> {
 	 * @param input The object to validate
 	 * @return If the object is valid
 	 */
-	public boolean isValid(Object input);
+	public boolean isValid(T input);
 }
